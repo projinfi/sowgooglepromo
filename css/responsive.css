@@ -212,9 +212,7 @@
 .slider_content {
   padding-top: 56px;
 }
-#slider_area, .single_slide, .single-slide-item-table {
-  height: 480px;
-}
+
 .owl-item .slider-animated-2 p {
   margin: 0 auto 25px;
   width: 100%;
