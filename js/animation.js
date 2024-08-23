@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Optional: Delay hiding the display until the animation ends
         setTimeout(() => {
             dropdowns.forEach(dropdown => dropdown.style.display = 'none');
-        }, 500); // Match this duration to your CSS transition time
+        }, 10); // Match this duration to your CSS transition time
     }
 
     // Event listener to open the modal
