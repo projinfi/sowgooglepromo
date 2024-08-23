@@ -1874,17 +1874,8 @@ a.f_skype:after{
   padding-left: 60px;
 }
 a#scrollUp {
-  background: #ED1C24 none repeat scroll 0 0;
-  border: 2px solid #ED1C24;
-  border-radius: 50%;
-  bottom: 80px;
-  color: #fff;
-  height: 40px;
-  line-height: 37px;
-  position: absolute;
-  right: 50px;
-  text-align: center;
-  width: 40px;
+
+  display: none;
 }
 a#scrollUp:hover {
   background: #444 none repeat scroll 0 0;
@@ -2225,7 +2216,7 @@ width: 100%;
   display: flex;
   position: absolute;
   z-index: 100;
-  border-radius: 20px;
+ 
 }
 
 .sowparnika-formcontent-left {
@@ -2368,7 +2359,7 @@ input ::placeholder{
     height: auto;
       display: flex;
       flex-direction: column;
-      border-radius: 0px;
+      border-radius: 20px;
   }
   .sowparnika-mobile-image{
       display: block;
